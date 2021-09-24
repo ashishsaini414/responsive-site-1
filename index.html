@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
-    <link rel="stylesheet" href="style.css">
+    </style>
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" media=" only screen and (max-width:600px)" href="mobile.css">
+    <!-- <link rel="stylesheet" media=" only screen and (max-width:800px)"href="tablet.css"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <div class="container-1">
-        <nav>
+        <nav id="mynav">
             <h3>Responsive Layout</h3>
             <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="#">Generic</a>
                 <a href="#">Elements</a>
+            </div>
+            <!-- <div id="sidebar"><i class="fas fa-bars"></i></div> -->
+            <input type="checkbox" id="openSidebarMenu" class="sidebarIconToggle">
+            <label for="openSidebarMenu">
+                <div class="spinner top"></div>
+                <div class="spinner middle"></div>
+                <div class="spinner bottom"></div>
+            </label>
+            <!-- <i id="mycross"class="fas fa-times"></i> -->
+            <div class="sidebar-menu">
+                <div class="sidebar-list">
+                    <a class="sidebar-item" href="#">Home</a>
+                    <a class="sidebar-item" href="#">Generic</a>
+                    <a class="sidebar-item" href="#">Elements</a>
+                </div>
             </div>
         </nav>
         <div class="first-content">
@@ -32,7 +50,7 @@
                     <p>Choose photos</p>
                 </div>
             </div>
-            <button id="get-started">Get Started</button>
+            <button id="get-started">GET STARTED</button>
         </div>
     </div>
     <div class="container-2">
