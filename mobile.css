@@ -89,6 +89,7 @@ label{
 }
 #openSidebarMenu:checked ~ .sidebar-menu{
     width: 50vw;
+    transition: all 0.3s 0s;
 }
 #openSidebarMenu:checked ~ label{
     transform: translate(1.5em,-0.4em);
@@ -108,7 +109,7 @@ label{
 }
 .bottom-content{
     flex-wrap: wrap;
-    padding: 0;
+    padding: 0 8vw;
 }
 
 .first-content{
@@ -123,7 +124,7 @@ label{
     padding-bottom: 1rem;
 }
 .box-1{
-    padding: 2rem 4rem;
+    padding: 2vh 4vw;
     /* z-index: 1; */
 }
 .box-1 h3{
@@ -134,7 +135,7 @@ label{
 }
 
 .box-2{
-    padding: 2rem 4rem;
+    padding: 2vh 4vw;
 }
 .box-2 h3{
     padding: 20px 0;
